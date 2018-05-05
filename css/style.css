@@ -35,9 +35,9 @@ video{
 }
 .btns-acao{
  	position: absolute;
-    bottom: 10px;
+    bottom: 0;
     right: 10px;
-    width: 205px;
+    width: 405px;
     height: 63px;
 }
 /*TELA 1*/
