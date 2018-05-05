@@ -1,0 +1,129 @@
+
+/*GLOBAL*/
+
+body{
+	font-size: 28px;
+	color: #fff;
+	font-weight: 300;
+	overflow:hidden;
+}
+video{
+	z-index: 999;
+}
+.logo{
+	width: 179px;
+	height: 30px;
+}
+.mt-1{
+	margin-top: 6px !important;
+}
+.mt-4{
+	margin-top: 36px !important;
+}
+.tela-1, .tela-2, .tela-3, .tela-4, .tela-5, .tela-6, .tela-7, .tela-8, .tela-9, .tela-10, .tela-11, .tela-12, .tela-13, .tela-14, .tela-15, .tela-16, .tela-17, .tela-18, .tela-19, .tela-20, .tela-21, .tela-22, .tela-23, .tela-24, .tela-25, .tela-26, .tela-27, .tela-28, .tela-29, .tela-30, .tela-31, .tela-32, .tela-33, .tela-34, .tela-35, .tela-36, .tela-37, .tela-38, .tela-39, .tela-40, .tela-41, .tela-42, .tela-43, .tela-44, .tela-45, .tela-46, .tela-47, .tela-48, .tela-49, .tela-50, .tela-51, .tela-52, .tela-53, .tela-54, .tela-55, .tela-56, .tela-57, .tela-58, .tela-59, .tela-60, .tela-61, .tela-62, .tela-63, .tela-64, .tela-65{
+	height: 768px;
+}
+.btn-telas{
+	background-color: transparent;
+	border: none;
+}
+.btn-telas:focus{
+	outline: none;
+}
+.btn-telas:hover{
+	cursor: pointer;
+}
+.btns-acao{
+ 	position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 205px;
+    height: 63px;
+}
+/*TELA 1*/
+.tela-1{
+	background-image: url('../images/tela-1/background.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.img-pilha-tela-1{
+	position: relative;
+	bottom: -10px;
+}
+/*TELA 2 e TELA 5*/
+.tela-2, .tela-5{
+	background-image: url('../images/background-pilhas.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+/*TELA 6*/
+.tela-6{
+	background-image: url('../images/tela-6/background.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+/*TELA 7*/
+.tela-7{
+	background-image: url('../images/tela-7/background.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+/*TELA 6*/
+.tela-56{
+	background-image: url('../images/tela-56/background-cashcarry.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+/*TELAS BACKGROUND COMUM*/
+.tela-3, .tela-4, .tela-8, .tela-9, .tela-10, .tela-11, .tela-12, .tela-13, .tela-14, .tela-15, .tela-16, .tela-17, .tela-18, .tela-19, .tela-20, .tela-21, .tela-22, .tela-23, .tela-24, .tela-25, .tela-26, .tela-27, .tela-28, .tela-29, .tela-30, .tela-31, .tela-32, .tela-33, .tela-34, .tela-35, .tela-36, .tela-37, .tela-38, .tela-39, .tela-40, .tela-41, .tela-42, .tela-43, .tela-44, .tela-45, .tela-46, .tela-47, .tela-48, .tela-49, .tela-50, .tela-51, .tela-52, .tela-53, .tela-54, .tela-55, .tela-57, .tela-58, .tela-59, .tela-60, .tela-61, .tela-62, .tela-63, .tela-64, .tela-65{
+	background-image: url('../images/background-geral.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.tela-4 h2{
+	font-size: 22px;
+}
+.tela-4 h3{
+	font-size: 17px;
+}
+.tela-4 p{
+	font-size: 13px;
+}
+.grupo-recarregaveis, .grupo-15x, .grupo-alcalinas, .grupo-comuns{
+	display: none;
+}
+.btn-gondola{
+	position: absolute;
+    top: 285px;
+    right: 185px;
+	z-index: 9999;
+}
+.btn-extra{
+	position: absolute;
+	top: 420px;
+    left: 190px;
+	z-index: 9999;
+}
+.btn-checkouts{
+	position: absolute;
+    top: 380px;
+    left: 690px;
+	z-index: 9999;
+}
+.btn-cross{
+	position: absolute;
+	top: 315px;
+    left: 550px;
+	z-index: 9999;
+}
+.btn-natural{
+	position: absolute;
+    top: 240px;
+    right: 200px;
+	z-index: 9999;
+}
+.space{
+	height: 50px;
+	display: none;
+}
+
