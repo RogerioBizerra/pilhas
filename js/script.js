@@ -2747,7 +2747,7 @@ $('.btn-tela-17b').click(function() {
 	$('.tela-65').hide();
 
 	var video20ginfo = document.getElementById("20ginfo");
-	video18gauto.video20ginfo();
+	video20ginfo.load();
 	video20ginfo.play();
 });
 // AVANÇAR PARA TELA 20 / RESULTADO / AUTOMOTIVO
@@ -2819,7 +2819,7 @@ $('.btn-tela-17c').click(function() {
 	$('.tela-65').hide();
 
 	var video21ginfo = document.getElementById("21ginfo");
-	video18gauto.video21ginfo();
+	video21ginfo.load();
 	video21ginfo.play();
 });
 // AVANÇAR PARA TELA 20 / RESULTADO / AUTOMOTIVO
@@ -2891,7 +2891,7 @@ $('.btn-tela-17d').click(function() {
 	$('.tela-65').hide();
 
 	var video6ginfo = document.getElementById("6ginfo");
-	video18gauto.video6ginfod();
+	video6ginfo.load();
 	video6ginfo.play();
 });
 // AVANÇAR PARA TELA 20 / RESULTADO / AUTOMOTIVO
@@ -2963,7 +2963,7 @@ $('.btn-tela-17e').click(function() {
 	$('.tela-65').hide();
 
 	var video18ginfo = document.getElementById("18ginfo");
-	video18gauto.video18ginfo();
+	video18ginfo.load();
 	video18ginfo.play();
 });
 // AVANÇAR PARA TELA 21 / RESULTADO / CLIPSTRIP / CHECKOUT
