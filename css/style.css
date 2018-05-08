@@ -11,8 +11,8 @@ video{
 	z-index: 999;
 }
 .logo{
-	width: 179px;
-	height: 30px;
+	width: 128px;
+	height: 20px;
 }
 .mt-1{
 	margin-top: 6px !important;
@@ -20,7 +20,7 @@ video{
 .mt-4{
 	margin-top: 36px !important;
 }
-.tela-1, .tela-2, .tela-3, .tela-4, .tela-5, .tela-6, .tela-7, .tela-8, .tela-9, .tela-10, .tela-11, .tela-12, .tela-13, .tela-14, .tela-15, .tela-16, .tela-17, .tela-18, .tela-19, .tela-20, .tela-21, .tela-22, .tela-23, .tela-24, .tela-25, .tela-26, .tela-27, .tela-28, .tela-29, .tela-30, .tela-31, .tela-32, .tela-33, .tela-34, .tela-35, .tela-36, .tela-37, .tela-38, .tela-39, .tela-40, .tela-41, .tela-42, .tela-43, .tela-44, .tela-45, .tela-46, .tela-47, .tela-48, .tela-49, .tela-50, .tela-51, .tela-52, .tela-53, .tela-54, .tela-55, .tela-56, .tela-57, .tela-58, .tela-59, .tela-60, .tela-61, .tela-62, .tela-63, .tela-64, .tela-65{
+.tela-1, .tela-2, .tela-3, .tela-4, .tela-5, .tela-6, .tela-7, .tela-8, .tela-9, .tela-10, .tela-11, .tela-12, .tela-13, .tela-14, .tela-15, .tela-16, .tela-17, .tela-18, .tela-19, .tela-20, .tela-21, .tela-22, .tela-23, .tela-24, .tela-25, .tela-26, .tela-27, .tela-28, .tela-29, .tela-30, .tela-31, .tela-32, .tela-33, .tela-34, .tela-35, .tela-36, .tela-37, .tela-38, .tela-39, .tela-40, .tela-41, .tela-42, .tela-43, .tela-44, .tela-45, .tela-46, .tela-47, .tela-48, .tela-49, .tela-50, .tela-51, .tela-52, .tela-53, .tela-54, .tela-55, .tela-56, .tela-57, .tela-58, .tela-59, .tela-60, .tela-61, .tela-62, .tela-63, .tela-64, .tela-65, .tela-66, .tela-67, .tela-68{
 	height: 768px;
 }
 .btn-telas{
@@ -35,9 +35,9 @@ video{
 }
 .btns-acao{
  	position: absolute;
-    bottom: 0;
+    bottom: 10px;
     right: 10px;
-    width: 405px;
+    width: 205px;
     height: 63px;
 }
 /*TELA 1*/
@@ -75,7 +75,7 @@ video{
 	background-size: contain;
 }
 /*TELAS BACKGROUND COMUM*/
-.tela-3, .tela-4, .tela-8, .tela-9, .tela-10, .tela-11, .tela-12, .tela-13, .tela-14, .tela-15, .tela-16, .tela-17, .tela-18, .tela-19, .tela-20, .tela-21, .tela-22, .tela-23, .tela-24, .tela-25, .tela-26, .tela-27, .tela-28, .tela-29, .tela-30, .tela-31, .tela-32, .tela-33, .tela-34, .tela-35, .tela-36, .tela-37, .tela-38, .tela-39, .tela-40, .tela-41, .tela-42, .tela-43, .tela-44, .tela-45, .tela-46, .tela-47, .tela-48, .tela-49, .tela-50, .tela-51, .tela-52, .tela-53, .tela-54, .tela-55, .tela-57, .tela-58, .tela-59, .tela-60, .tela-61, .tela-62, .tela-63, .tela-64, .tela-65{
+.tela-3, .tela-4, .tela-8, .tela-9, .tela-10, .tela-11, .tela-12, .tela-13, .tela-14, .tela-15, .tela-16, .tela-17, .tela-18, .tela-19, .tela-20, .tela-21, .tela-22, .tela-23, .tela-24, .tela-25, .tela-26, .tela-27, .tela-28, .tela-29, .tela-30, .tela-31, .tela-32, .tela-33, .tela-34, .tela-35, .tela-36, .tela-37, .tela-38, .tela-39, .tela-40, .tela-41, .tela-42, .tela-43, .tela-44, .tela-45, .tela-46, .tela-47, .tela-48, .tela-49, .tela-50, .tela-51, .tela-52, .tela-53, .tela-54, .tela-55, .tela-57, .tela-58, .tela-59, .tela-60, .tela-61, .tela-62, .tela-63, .tela-64, .tela-65, .tela-66, .tela-67, .tela-68{
 	background-image: url('../images/background-geral.jpg');
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -94,8 +94,8 @@ video{
 }
 .btn-gondola{
 	position: absolute;
-    top: 285px;
-    right: 185px;
+    top: 310px;
+    right: 235px;
 	z-index: 9999;
 }
 .btn-extra{
@@ -126,4 +126,6 @@ video{
 	height: 50px;
 	display: none;
 }
-
+.owl-carousel .owl-stage-outer{
+	height: 460px;
+}
