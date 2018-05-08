@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>Panasonic Pilhas</title>
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta http-equiv="Content-Security-Policy" 
+		 content="default-src *; 
+				  style-src * 'self' 'unsafe-inline' 'unsafe-eval'; 
+				  script-src * 'self' 'unsafe-inline' 'unsafe-eval';">
+	<link rel="icon" href="images/icon.png">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css" />
+	<link rel="stylesheet" href="css/owl.theme.default.min.css" />
+	<link rel="stylesheet" href="css/hover-min.css" />
+	<link rel="stylesheet" href="css/animate.css" />
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+	<div class="container-fluid background">
+		<div class="row tela-4">
+			<div class="container">
+				<div class="row mt-1">
+					<div class="col-sm-12 text-center">
+						<a href="index.html"><img src="images/logo.png" class="logo"></a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12 mt-4 mb-1 text-center">
+						<img src="images/tela-4/titulo.png" class="titulo-diferenciais">
+						<div class="space"></div>
+					</div>
+					<div class="col-sm-7 text-center">
+						<div class="grupo-geral text-center">
+							<img src="images/tela-4/fl-geral.png" class="animated flipInX hvr-bob" style="margin-top: 50px;">
+						</div>
+						<div class="grupo-15x text-justify">
+							<div class="animated fadeIn mb-5">
+								<h2>ALCALINA PREMIUM</h2>
+								<p style="margin-bottom: 60px;">Com as Alcalinas Premium Panasonic você pode fazer muito mais e o melhor: com toda a segurança. Além de oferecer um poder extra para dispositivos de alta performance, chegando a 15x + energia, elas também têm proteção máxima.</p>
+								<p>Um triplo revestimento impede seu vazamento, isso faz com que mesmo dentro do objeto, as pilhas permaneçam intactas.</p>
+							</div>
+							<img src="images/tela-4/fl-15x.png" class="animated flipInX hvr-bob">
+							<img src="images/tela-4/selos-15x.png" class="animated flipInX hvr-bob" style="width: 275px;">
+						</div>
+						<div class="grupo-alcalinas text-justify">
+							<div class="animated fadeIn">
+								<h2>ALCALINA STANDARD</h2>
+								<p>As Pilhas Alcalinas Panasonic são desenvolvidas para proporcionar mais durabilidade nos aparelhos que exigem mais energia. Atualmente, representam 65% das vendas em valor.</p>
+								<h3>Diferenciais:</h3>
+								<p style="margin-bottom: 60px;">• Duram 10x mais;
+								<br>• Excelente custo-benefício em aparelhos de alto consumo;
+								<br>• Únicas pilhas alcalinas produzidas no Brasil.</p>
+							</div>
+							<img src="images/tela-4/fl-alcalina.png" class="animated flipInX hvr-bob">
+							<img src="images/tela-4/selo-alcalina.png" class="animated flipInX hvr-bob" style="vertical-align: top;">
+						</div>
+						<div class="grupo-comuns text-justify">
+							<div class="animated fadeIn">
+								<h2>PILHA COMUM</h2>
+								<p style="margin-bottom: 50px;">Fabricadas há mais de 40 anos no Brasil, as Pilhas Super Hyper da Panasonic são produzidas com materiais selecionados, que atendem aos requisitos ambientais da legislação brasileira. Testadas eletronicamente uma a uma, elas garantem a melhor performance de seus eletrônicos de baixo consumo de energia.</p>
+								<h3>Diferenciais:</h3>
+								<p>• Proteção interna contra vazamento (PVC);
+								<br>• Válvula de segurança antivazamento;
+								<br>• Sem adição de substâncias tóxicas.</p>
+							</div>
+							<img src="images/tela-4/fl-comum.png" class="animated flipInX hvr-bob">
+							<img src="images/tela-4/selo-comum.png" class="animated flipInX hvr-bob" style="width: 275px;vertical-align: top;">
+						</div>
+					</div>
+					<div class="col-sm-5 text-left">
+						<button type="button" class="btn-telas btn-tela-4-15x animated flipInX hvr-bob" name="btn-telas btn-tela-4" value="15x"><img src="images/tela-4/grupo-15x.png" style="width: 275px;"></button>
+						<button type="button" class="btn-telas btn-tela-4-alcalinas animated flipInX hvr-bob" name="btn-telas btn-tela-4" value="alcalinas"><img src="images/tela-4/grupo-alcalinas.png" style="width: 275px;"></button>
+						<button type="button" class="btn-telas btn-tela-4-comuns animated flipInX hvr-bob" name="btn-telas btn-tela-4" value="comuns"><img src="images/tela-4/grupo-comuns.png" style="width: 275px;"></button>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 text-right btns-acao">
+				<a href="tela-3.html" class="animated fadeIn hvr-skew-backward btn-telas"><img src="images/voltar.png"></a>
+				<a href="tela-5.html" class="animated fadeIn hvr-skew-forward btn-telas"><img src="images/avancar.png"></a>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script>
+		
+	$('.grupo-geral').show();
+	$('.titulo-diferenciais').show();
+	$('.space').hide();
+	$('.grupo-recarregaveis').hide();
+	$('.grupo-15x').hide();
+	$('.grupo-alcalinas').hide();
+	$('.grupo-comuns').hide();
+
+	$('.btn-tela-4-recarregaveis').click(function(){
+		$('.grupo-geral').hide();
+		$('.grupo-recarregaveis').fadeIn('slow');
+		$('.grupo-15x').hide();
+		$('.grupo-alcalinas').hide();
+		$('.grupo-comuns').hide();
+		$('.titulo-diferenciais').hide();
+		$('.space').show();
+	})
+	$('.btn-tela-4-15x').click(function(){
+		$('.grupo-geral').hide();
+		$('.grupo-recarregaveis').hide();
+		$('.grupo-15x').fadeIn('slow');
+		$('.grupo-alcalinas').hide();
+		$('.grupo-comuns').hide();
+		$('.titulo-diferenciais').hide();
+		$('.space').show();
+	})
+	$('.btn-tela-4-alcalinas').click(function(){
+		$('.grupo-geral').hide();
+		$('.grupo-recarregaveis').hide();
+		$('.grupo-15x').hide();
+		$('.grupo-alcalinas').fadeIn('slow');
+		$('.grupo-comuns').hide();
+		$('.titulo-diferenciais').hide();
+		$('.space').show();
+	})
+	$('.btn-tela-4-comuns').click(function(){
+		$('.grupo-geral').hide();
+		$('.grupo-recarregaveis').hide();
+		$('.grupo-15x').hide();
+		$('.grupo-alcalinas').hide();
+		$('.grupo-comuns').fadeIn('slow');
+		$('.titulo-diferenciais').hide();
+		$('.space').show();
+	})
+	</script>
+</body>
+
+</html>
