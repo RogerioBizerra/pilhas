@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="br.com.rtpublicity.pilhasipad" version="2.1" xmlns="http://www.w3.org/ns/widgets">
+<widget id="br.com.rtpublicity.pilhasipad" version="2.2" xmlns="http://www.w3.org/ns/widgets">
 	<name>Pilhas - Panasonic</name>
 	<description>Dura até 15x mais!</description>
 	<author email="contato@rtpublicity.com.br" href="http://rtpublicity.com.br/sites/panasonic/pilhasipad">Pilhas - Panasonic</author>
@@ -18,7 +18,7 @@
 	<access origin="*" /> <!-- Required for iOS9 -->
 
     <!-- Marketing Icon -->
-	<icon src="icon.png" width="1024" height="1024" /> 
+	<icon src="icon.jpg" width="1024" height="1024" /> 
 
     <platform name="ios">
         <!-- iOS 8.0+ -->
