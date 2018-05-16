@@ -3,7 +3,7 @@
 	<name>Pilhas - Panasonic</name>
 	<description>Dura até 15x mais!</description>
 	<author email="contato@rtpublicity.com.br" href="http://rtpublicity.com.br/sites/panasonic/pilhasipad">Pilhas - Panasonic</author>
-	<preference name="phonegap-version" value="cli-6.5.0" />
+	<preference name="phonegap-version" value="cli-7.1.0" />
 	<preference name="permissions" value="none" />
 	<preference name="orientation" value="landscape" />
 	<preference name="target-device" value="universal" />
@@ -17,7 +17,8 @@
 	<allow-intent href="*" />
 	<access origin="*" /> <!-- Required for iOS9 -->
 
-	<icon src="icon.png" width="512" height="512" /> 
+    <!-- Marketing Icon -->
+	<icon src="icon.png" width="1024" height="1024" /> 
 
     <platform name="ios">
         <!-- iOS 8.0+ -->
@@ -50,7 +51,5 @@
         <icon src="res/icon/ios/icon-50@2x.png" width="100" height="100" />
         <!-- iPad Pro -->
         <icon src="res/icon/ios/icon-83.5@2x.png" width="167" height="167" />
-        <!-- Marketing Icon -->
-        <icon src="res/icon/ios/icon-1024.png" width="1024" height="1024" />
     </platform>
 </widget>
