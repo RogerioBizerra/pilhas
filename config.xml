@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.myapp.mobile" version="2.0" xmlns="http://www.w3.org/ns/widgets">
+<widget id="br.com.rtpublicity.pilhasipad" version="2.0" xmlns="http://www.w3.org/ns/widgets">
 	<name>Pilhas - Panasonic</name>
 	<description>Dura até 15x mais!</description>
-	<author email="contato@rtpublicity.com.br" href="http://rtpublicity.com.br/sites/panasonic/panasonic-pilhas">Pilhas - Panasonic</author>
+	<author email="contato@rtpublicity.com.br" href="http://rtpublicity.com.br/sites/panasonic/pilhasipad">Pilhas - Panasonic</author>
 	<preference name="phonegap-version" value="cli-6.5.0" />
 	<preference name="permissions" value="none" />
 	<preference name="orientation" value="landscape" />
